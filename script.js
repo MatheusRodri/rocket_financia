@@ -56,8 +56,11 @@ const Transaction = {
         return expense
     },
     total(){
-      
-        return Transaction.incomes() + Transaction.expenses()
+       let calc = Transaction.incomes() + Transaction.expenses()
+       let cardTotal =  document.querySelector(".card.total")
+        calc < 0 ? cardTotal.classList.add("expense") : cardTotal.classList.remove("expense")
+       
+        return calc
     }
 }
 

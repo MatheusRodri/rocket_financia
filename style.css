@@ -121,6 +121,10 @@ header{
     margin-top: 1rem;
 }
 
+.card.total.expense{
+    background: var(--red);
+    color: white;
+}
 .card.total{
     background: var(--green);
     color: white;
