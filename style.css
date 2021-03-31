@@ -157,18 +157,14 @@ table thead th{
     text-align: left;
     
 }
-table tbody tr{
-    opacity: 1;
-    background:red
-}
 
-table tbody tr:hover{
-  background: red;
-}
 table tbody td{
     background: white;
     padding: 1rem 2rem;
     font-weight: normal;
+}
+table tbody tr:hover{
+    background:  rgba(101, 109, 230, 0.7) ;
 }
 td.description{
     color: var(--color-blue);
